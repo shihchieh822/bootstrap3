@@ -1,0 +1,242 @@
+/* * */
+* {
+  font-weight: 200;
+}
+section {
+  padding: 100px 0;
+}
+
+hr {
+  margin: 0;
+}
+h1,h2,h3,h4 {
+  margin-top: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+}
+h3, h4 {
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+p {
+  line-height: 2;
+  color:#7e7e7e;
+  margin-bottom: 30px;
+}
+.heading-title {
+  margin-bottom: 100px;
+}
+.heading-title h2{
+  margin: 0;
+}
+.heading-title p {
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.btn.btn-default {
+  border:none;
+  padding: 10px 20px;
+  background-color:black;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  transition: 0.2s, linear all;
+}
+.btn.btn-default:hover {
+  background-color: #d6b161;
+}
+ul.circled-list {
+  margin-bottom: 30px;
+  padding-left: 18px;
+  list-style-type: circle;
+  line-height: 2;
+}
+ul.arrow-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+ul.arrow-list  li {
+  border-bottom: 1px solid #333;
+}
+ul.arrow-list  a::before {
+  content: ">";
+  padding-right: 15px;
+}
+ul.arrow-list  a {
+ color: #a2a2a2;
+ line-height: 3;
+ text-decoration: none;
+}
+.bubble.comment {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.bubble.comment p {
+  margin-bottom: 0;
+}
+.triangle {
+position: absolute;
+bottom: -14px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 14px 14px 0 14px;
+border-color: #f5f5f5 transparent transparent transparent;
+}
+.testimonial-meta {
+  margin-top: 15px;
+}
+.testimonial-meta .name {
+  margin: 0;
+  font-size: 14px;
+}
+.testimonial-meta .title {
+font-size: 12px;
+letter-spacing: 1px;
+color: #7f7f7f;
+}
+/*  #header */
+#header {
+  padding: 0 30px;
+}
+nav {
+  line-height: 100px;
+  font-size: 13px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: transparent;
+  color: #d6b161;
+}
+.nav>li>a {
+  padding: 0 15px;
+color: #333;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color:transparent;
+}
+
+/*.header*/
+
+.header {
+  padding: 200px;
+  background-image: url(http://massive.markup.themebucket.net/assets/img/about/sb-1.jpg);
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header h1{
+color: white;
+font-size: 24px;
+}
+.breadcrumb {
+  padding: 15px;
+  background-color:rgba(0, 0,0, .7);
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.breadcrumb a {
+ color: #7e7e7e;
+ text-transform: uppercase;
+}
+.breadcrumb a:active, .breadcrumb a:hover {
+  color:#ccc;
+  text-decoration: none;
+}
+.breadcrumb>.active {
+  color: #ccc;
+  text-transform: uppercase;
+}
+ /*section 1*/
+ .services .col-sm-6 {
+   margin-bottom: 80px;
+ }
+ .services h3 {
+   margin-bottom: 20px;
+  }
+
+/* other-services*/
+.other-services {
+  background-image: url(http://massive.markup.themebucket.net/assets/img/parallax/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  color: white;
+}
+.other-services p {
+  color:white;
+}
+.other-services hr {
+  margin: 30px auto;
+  border-top-width: 2px;
+  width: 36px;
+}
+.other-services h3 {
+  margin-bottom: 20px;
+}
+.other-services i {
+  font-size: 36px;
+}
+/*special-services*/
+
+.special-services .subtitle {
+  color: #d6b161;
+}
+
+/*footer*/
+#footer {
+  background-color: #222;
+}
+#footer>.container {
+padding: 80px 15px;
+}
+#footer h4 {
+  color: white;
+  font-size: 14px;
+}
+#footer .recentwork  li{
+  margin-bottom: 10px;
+}
+#footer .bottom {
+  border-top: 1px solid #2c2c2c;
+  padding: 35px 0;
+  background-color: #1b1b1b;
+  color: #6f7273;
+}
+#footer .coypright {
+  line-height: 30px;
+}
+#footer .bottom ul {
+  margin-bottom: 0;
+}
+.social-media a {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  color: #5a5a5a;
+  font-size: 15px;
+}
+.social-media a:active, .social-media a:hover {
+  text-decoration: none;
+}
+.social-media li {
+  position: relative;
+  margin-left: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
